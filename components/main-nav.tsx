@@ -25,7 +25,7 @@ const MainNav: React.FC<MainNavProps> = ({
 
     return (
         <nav
-            className="mx-6 flex items-center space-x-4 lg:space-x-6 "
+            className="lg:mx-6 mx-2 flex items-center space-x-4 lg:space-x-6 "
         >
             <div className="lg:hidden">
                 <NavigationMenu >
