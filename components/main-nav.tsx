@@ -50,7 +50,7 @@ const MainNav: React.FC<MainNavProps> = ({
                     </NavigationMenuList>
                 </NavigationMenu>
             </div>
-            <div className="mx-6 items-center space-x-4 lg:space-x-6 hidden lg:flex">
+            <div className="mx-6 items-center  space-x-4 lg:space-x-6 hidden lg:flex">
                 {routes.map((route) => (
                     <Link
                         key={route.href}
