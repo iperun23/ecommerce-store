@@ -53,6 +53,7 @@ const Summary = () => {
             <Button onClick={onCheckout} disabled={items.length === 0} className="w-full mt-6">
                 Checkout
             </Button>
+            <p className="text-red-500 font-bold text-center py-3">Demo Project: Stripe Payment Integration disabled</p>
         </div>
     );
 }
